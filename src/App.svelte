@@ -4,6 +4,7 @@
 	import Stack from './components/Stack.svelte';
 	import About from './components/About.svelte';
 	import Stats from './components/Stats.svelte';
+	import SkillsAndServices from './components/SkillsAndServices/index.svelte';
 </script>
 
 <main class="flex flex-col items-center justify-center px-24">
@@ -12,4 +13,5 @@
 	<Stack />
 	<About />
 	<Stats />
+	<SkillsAndServices />
 </main>
