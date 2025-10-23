@@ -7,7 +7,7 @@
 	import SkillsAndServices from './components/SkillsAndServices/index.svelte';
 </script>
 
-<main class="flex flex-col items-center justify-center px-24">
+<main class="flex flex-col items-center justify-center px-4 sm:px-8 md:px-12 lg:px-16 xl:px-24">
 	<Navbar />
 	<Hero />
 	<Stack />
