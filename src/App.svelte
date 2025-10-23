@@ -1,7 +1,7 @@
 <script lang="ts">
 	import Navbar from './components/Navbar.svelte';
 	import Hero from './components/Hero/index.svelte';
-	import Stack from './components/Stack.svelte';
+	import Stack from './components/Stack/index.svelte';
 	import About from './components/About.svelte';
 	import Stats from './components/Stats.svelte';
 	import SkillsAndServices from './components/SkillsAndServices/index.svelte';
