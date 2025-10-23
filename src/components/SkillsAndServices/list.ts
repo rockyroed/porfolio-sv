@@ -1,30 +1,29 @@
 interface List {
 	title: string;
 	description: string;
-	technologies?: string;
+	icons?: string[];
 }
 
 export const list: List[] = [
 	{
 		title: 'Frontend Development',
 		description: 'Crafting intuitive, accessible, and responsive interfaces.',
-		technologies:
-			'React.js, Next.js, JavaScript (ES6+), TypeScript, Tailwind CSS, HTML5, CSS3, and Sass'
+		icons: ['react', 'nuxtjs', 'nextjs', 'nuxtjs', 'typescript', 'tailwindcss']
 	},
 	{
 		title: 'Backend & APIs',
 		description: 'Building solid foundations and smooth data flow.',
-		technologies: 'Node.js, Express.js, RESTful APIs, GraphQL'
+		icons: ['nodejs', 'express', 'nuxtjs', 'nextjs']
 	},
 	{
 		title: 'Database Management',
 		description: 'Structuring and managing data securely.',
-		technologies: 'MongoDB, Supabase, Firebase'
+		icons: ['mongodb', 'supabase', 'firebase']
 	},
 	{
 		title: 'Tools & Workflows',
 		description: 'Version control, testing, design, and deployment.',
-		technologies: 'Git & GitHub, Postman, Docker, Jest, Figma, Vercel, and Netlify'
+		icons: ['git', 'github', 'postman', 'docker', 'vitest', 'figma']
 	},
 	{
 		title: 'Development Philosophy',
