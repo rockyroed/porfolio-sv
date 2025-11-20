@@ -27,7 +27,7 @@
 			<Icon {icon} />
 		{/each}
 	</div>
-	<a href={link} target="_blank" class="cursor-pointer mt-4">
+	<a href={link} target="_blank" class="mt-4 cursor-pointer">
 		<button class="cursor-pointer rounded-md bg-primary px-4 py-2 text-text">
 			{isLive ? 'View Website' : 'View Repository'}
 		</button>

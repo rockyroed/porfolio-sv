@@ -1,6 +1,6 @@
 <script lang="ts">
 	import ProjectCard from './ProjectCard.svelte';
-  import { list } from './list';
+	import { list } from './list';
 </script>
 
 <div class="flex w-screen flex-col gap-37 px-24 py-20">

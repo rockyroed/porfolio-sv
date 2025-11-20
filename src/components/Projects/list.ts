@@ -27,5 +27,5 @@ export const list: List[] = [
 		isLive: false,
 		isWorkInProgress: false,
 		image: '/images/blog.png'
-	},
+	}
 ];
