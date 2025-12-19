@@ -13,7 +13,12 @@ export const list: List[] = [
 	{
 		title: 'Blog',
 		description: 'A sample blog website containing posts, categories, and comments.',
-		icons: ['react', 'mongodb', 'tailwindcss'],
+		icons: [
+			'react',
+			'mongodb',
+			'tailwindcss',
+			'https://tanstack.com/images/logos/logo-color-100.png'
+		],
 		link: 'https://github.com/rockyroed/blog-app',
 		isLive: false,
 		isWorkInProgress: false,
