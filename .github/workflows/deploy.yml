@@ -38,4 +38,7 @@ jobs:
         run: pnpm build
 
       - name: Deploy
-        run: pnpm run deploy
+        run: |
+          git config --global user.name "rockyroed"
+          git config --global user.email "roed-imp.vo97b@slmail.me"
+          pnpm run deploy
