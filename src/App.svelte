@@ -8,6 +8,7 @@
 	import Projects from './components/Projects/index.svelte';
 	import Certificates from './components/Certificates/index.svelte';
 	import CTA from './components/CTA/index.svelte';
+	import Footer from './components/Footer/index.svelte';
 </script>
 
 <main class="flex flex-col items-center justify-center px-4 sm:px-8 md:px-12 lg:px-16 xl:px-24">
@@ -20,4 +21,5 @@
 	<Projects />
 	<Certificates />
 	<CTA />
+	<Footer />
 </main>
