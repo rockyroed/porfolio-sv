@@ -30,6 +30,15 @@ export const list: List[] = [
 		image: '/images/portfolio.png'
 	},
 	{
+		title: 'Exchange Rate Notifier',
+		description: 'A python script that emails me about the daily exchange rate of USD to PHP.',
+		icons: ['python', 'gmail'],
+		link: 'https://github.com/rockyroed/exchange-rate-notifier',
+		isLive: false,
+		isWorkInProgress: false,
+		image: '/images/exchange-rate-notifier.png'
+	},
+	{
 		title: 'Lystra',
 		description:
 			'Lystra is a web app for managing wishlists across multiple platforms (Shopee, Amazon, TikTok Shop). Organize items with links, tags, priorities, and statuses.',
