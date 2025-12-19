@@ -9,7 +9,7 @@ export const certificates: Certificate[] = [
 	{
 		title: 'Pixel8 Certificate of Training',
 		description:
-			'I completed a rigorous 350‑hour training program on November 3, 2023, mastering Git/GitLab workflow, Vue.js fundamentals, and the Quasar framework—including API integration with Axios—and applying these skills in a comprehensive capstone UI project backed by a JSON server. Throughout the course, I consistently demonstrated strong conceptual grasp, active engagement, and effective collaboration within a GitLab‑driven team environment.',
+			'I completed a 350‑hour training program on November 3, 2023, mastering Git/GitLab workflow, Vue.js fundamentals, and the Quasar framework—including API integration with Axios—and applying these skills in a comprehensive capstone UI project backed by a JSON server. Throughout the course, I consistently demonstrated strong conceptual grasp, active engagement, and effective collaboration within a GitLab‑driven team environment.',
 		image: 'images/certificates/pixel8-certificate-of-training.jpg',
 		icons: ['vue', 'git', 'gitlab']
 	},
