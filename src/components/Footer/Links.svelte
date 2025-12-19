@@ -6,7 +6,7 @@
 <div class="flex items-center justify-end gap-x-4">
 	{#each links as link}
 		<a href={link.link} target="_blank">
-			<Icon icon={link.icon} />
+			<Icon icon={link.icon} pointer={true} />
 		</a>
 	{/each}
 </div>
