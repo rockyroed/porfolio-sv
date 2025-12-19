@@ -1,5 +1,5 @@
 <script lang="ts">
-	let { icon, pointer }: { icon: string; pointer: boolean } = $props();
+	let { icon, pointer }: { icon: string; pointer?: boolean } = $props();
 </script>
 
 {#if icon.startsWith('https://')}

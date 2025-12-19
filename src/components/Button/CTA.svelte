@@ -1,5 +1,5 @@
 <script lang="ts">
-	let { value, href }: { value: string; href: string } = $props();
+	let { value, href }: { value: string; href?: string } = $props();
 </script>
 
 {#if href}

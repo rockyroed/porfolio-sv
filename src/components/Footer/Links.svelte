@@ -1,4 +1,6 @@
 <script lang="ts">
+	import type { Link } from './links';
+
 	const { links }: { links: Link[] } = $props();
 	import Icon from '../Button/Icon.svelte';
 </script>
