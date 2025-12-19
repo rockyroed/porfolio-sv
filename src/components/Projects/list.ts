@@ -22,7 +22,7 @@ export const list: List[] = [
 		link: 'https://github.com/rockyroed/blog-app',
 		isLive: false,
 		isWorkInProgress: false,
-		image: '/images/blog.png'
+		image: `${import.meta.env.BASE_URL}/images/blog.png`
 	},
 	{
 		title: 'Portfolio',
@@ -32,7 +32,7 @@ export const list: List[] = [
 		isLive: true,
 		liveLink: 'https://christianroed.site/',
 		isWorkInProgress: false,
-		image: '/images/portfolio.png'
+		image: `${import.meta.env.BASE_URL}/images/portfolio.png`
 	},
 	{
 		title: 'Exchange Rate Notifier',
@@ -41,7 +41,7 @@ export const list: List[] = [
 		link: 'https://github.com/rockyroed/exchange-rate-notifier',
 		isLive: false,
 		isWorkInProgress: false,
-		image: '/images/exchange-rate-notifier.png'
+		image: `${import.meta.env.BASE_URL}/images/exchange-rate-notifier.png`
 	},
 	{
 		title: 'Lystra',
@@ -51,6 +51,6 @@ export const list: List[] = [
 		link: 'https://github.com/rockyroed/lystra',
 		isLive: false,
 		isWorkInProgress: true,
-		image: '/images/lystra.png'
+		image: `${import.meta.env.BASE_URL}/images/lystra.png`
 	}
 ];
