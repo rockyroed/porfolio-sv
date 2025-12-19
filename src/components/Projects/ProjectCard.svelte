@@ -6,14 +6,15 @@
 	import Laptop from './Laptop.svelte';
 </script>
 
-<div class="flex items-start justify-between gap-4" class:flex-row-reverse={index % 2 === 1}>
-	<Laptop image={project.image} />
+<div class="flex items-center justify-between gap-4" class:flex-row-reverse={index % 2 === 1}>
+	<Laptop image={project.image} name={project.title} />
 	<Details
 		title={project.title}
 		description={project.description}
 		icons={project.icons}
 		link={project.link}
 		isLive={project.isLive}
+		liveLink={project.liveLink}
 		isWorkInProgress={project.isWorkInProgress}
 	/>
 </div>

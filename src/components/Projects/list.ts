@@ -4,11 +4,31 @@ export interface List {
 	icons: string[];
 	link: string;
 	isLive: boolean;
+	liveLink?: string;
 	isWorkInProgress: boolean;
 	image: string;
 }
 
 export const list: List[] = [
+	{
+		title: 'Blog',
+		description: 'A sample blog website containing posts, categories, and comments.',
+		icons: ['react', 'mongodb', 'tailwindcss'],
+		link: 'https://github.com/rockyroed/blog-app',
+		isLive: false,
+		isWorkInProgress: false,
+		image: '/images/blog.png'
+	},
+	{
+		title: 'Portfolio',
+		description: 'A portfolio website showcasing my projects and skills.',
+		icons: ['svelte', 'tailwindcss', 'ts'],
+		link: 'https://github.com/rockyroed/portfolio-sv',
+		isLive: true,
+		liveLink: 'https://christianroed.site/',
+		isWorkInProgress: false,
+		image: '/images/portfolio.png'
+	},
 	{
 		title: 'Lystra',
 		description:
@@ -18,14 +38,5 @@ export const list: List[] = [
 		isLive: false,
 		isWorkInProgress: true,
 		image: '/images/lystra.png'
-	},
-	{
-		title: 'Blog',
-		description: 'A sample blog website containing posts, categories, and comments.',
-		icons: ['react', 'mongodb', 'tailwindcss'],
-		link: 'https://github.com/rockyroed/blog-app',
-		isLive: false,
-		isWorkInProgress: false,
-		image: '/images/blog.png'
 	}
 ];

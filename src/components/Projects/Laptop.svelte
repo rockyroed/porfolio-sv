@@ -1,9 +1,7 @@
 <script lang="ts">
-	let { image }: { image: string } = $props();
-	import laptop from '/images/laptop.svg';
+	let { image, name }: { image: string; name: string } = $props();
 </script>
 
-<div class="shrink-0">
-	<img src={laptop} alt="Laptop" />
-	<!-- <img src={image} alt="Project" /> -->
+<div class="w-1/2 shrink-0">
+	<img src={image} alt={name} />
 </div>
