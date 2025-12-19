@@ -4,7 +4,7 @@
 </script>
 
 <div class="flex flex-col items-center justify-between gap-8 py-8 md:flex-row md:py-12 lg:py-16">
-	<div class="flex w-full flex-col gap-6 md:w-1/2 md:gap-8 md:pr-4 lg:gap-11 lg:pr-8">
+	<div class="flex flex-col gap-6 md:w-full md:gap-8 md:pr-4 lg:w-1/2 lg:gap-11 lg:pr-8">
 		<div class="flex flex-col gap-4 md:gap-5 lg:gap-6">
 			<h1 class="text-2xl font-semibold text-text sm:text-3xl md:text-4xl lg:text-h1">
 				Building{' '}
@@ -18,7 +18,7 @@
 		</div>
 		<CTAButton value="Contact Me" />
 	</div>
-	<div class="relative flex w-full justify-center md:w-1/2">
+	<div class="relative hidden w-full justify-center md:w-1/2 lg:flex">
 		<div
 			class="3xl:h-152 3xl:w-152 relative h-48 w-48 sm:h-64 sm:w-64 md:h-80 md:w-80 lg:h-96 lg:w-96"
 		>

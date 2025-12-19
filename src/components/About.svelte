@@ -2,21 +2,26 @@
 	import CTAButton from './Button/CTA.svelte';
 </script>
 
-<div id="about" class="flex h-auto gap-x-10 pt-28 pb-14">
-	<div class="w-1/3">
+<div
+	id="about"
+	class="flex h-auto flex-col gap-8 pt-16 pb-10 sm:pt-20 sm:pb-12 md:flex-row md:gap-x-10 md:pt-28 md:pb-14"
+>
+	<div class="w-full md:w-1/3">
 		<img
-			class="w-full rounded-xl"
+			class="mx-auto w-2/3 rounded-xl sm:w-1/2 md:mx-0 md:w-full"
 			src="/images/about-picture.png"
 			alt="About"
 			loading="lazy"
 			decoding="async"
 		/>
 	</div>
-	<div class="flex w-2/3 flex-col">
-		<h2 class="mb-6 font-jetbrains-mono text-h2 font-medium text-foreground">
+	<div class="flex w-full flex-col md:w-2/3">
+		<h2
+			class="mb-4 font-jetbrains-mono text-xl font-medium text-foreground sm:text-2xl md:mb-6 md:text-3xl lg:text-h2"
+		>
 			{'<AboutMe />'}
 		</h2>
-		<h6 class="mb-8 text-h6">
+		<h6 class="mb-6 text-sm sm:text-base md:mb-8 md:text-lg lg:text-h6">
 			I build fast, responsive, and user-focused websites that transform complex challenges into
 			seamless, high-performing digital experiences. I build fast, responsive, and user-focused
 			websites that transform complex challenges into seamless, high-performing digital experiences.
@@ -25,12 +30,11 @@
 			websites that transform complex challenges into seamless, high-performing digital experiences.
 		</h6>
 		<div
-			class="border-border mb-10 grid grid-cols-2 gap-y-5 border-t border-b border-grey-100 px-5 py-7"
+			class="border-border mb-6 grid grid-cols-1 gap-y-4 border-t border-b border-grey-100 px-3 py-5 sm:grid-cols-2 sm:gap-y-5 sm:px-5 sm:py-7 md:mb-10"
 		>
-			<div class="flex items-center gap-3">
+			<div class="flex items-center gap-2 sm:gap-3">
 				<svg
-					width="24"
-					height="18"
+					class="h-4 w-5 shrink-0 sm:h-[18px] sm:w-6"
 					viewBox="0 0 24 18"
 					fill="none"
 					xmlns="http://www.w3.org/2000/svg"
@@ -40,12 +44,13 @@
 						fill="white"
 					/>
 				</svg>
-				<h6 class="text-h6">christianroedpboyles@protonmail.com</h6>
+				<h6 class="text-xs break-all sm:text-sm md:text-base lg:text-h6">
+					christianroedpboyles@protonmail.com
+				</h6>
 			</div>
-			<div class="flex items-center gap-3">
+			<div class="flex items-center gap-2 sm:gap-3">
 				<svg
-					width="18"
-					height="24"
+					class="h-5 w-4 shrink-0 sm:h-6 sm:w-[18px]"
 					viewBox="0 0 18 24"
 					fill="none"
 					xmlns="http://www.w3.org/2000/svg"
@@ -55,7 +60,7 @@
 						fill="white"
 					/>
 				</svg>
-				<h6 class="text-h6">Manila, Philippines</h6>
+				<h6 class="text-xs sm:text-sm md:text-base lg:text-h6">Manila, Philippines</h6>
 			</div>
 		</div>
 		<CTAButton value="Contact Me" />

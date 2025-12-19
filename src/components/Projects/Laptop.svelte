@@ -2,6 +2,6 @@
 	let { image, name }: { image: string; name: string } = $props();
 </script>
 
-<div class="w-1/2 shrink-0">
-	<img src={image} alt={name} />
+<div class="w-full shrink-0 sm:w-3/4 md:w-1/2">
+	<img class="w-full" src={image} alt={name} />
 </div>

@@ -5,7 +5,10 @@
 	let { certificate, index }: { certificate: Certificate; index: number } = $props();
 </script>
 
-<div class="flex items-center justify-between gap-8" class:flex-row-reverse={index % 2 === 1}>
+<div
+	class="flex w-full flex-col items-center justify-between gap-6 sm:gap-8 md:flex-row"
+	class:md:flex-row-reverse={index % 2 === 1}
+>
 	<Image image={certificate.image} name={certificate.title} />
 	<Details
 		title={certificate.title}

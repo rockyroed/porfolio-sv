@@ -21,17 +21,21 @@
 	} = $props();
 </script>
 
-<div class="flex flex-col gap-3">
-	<h3 class="text-4xl font-semibold text-primary">
+<div class="flex w-full flex-col gap-2 text-center sm:gap-3 md:w-auto md:text-left">
+	<h3 class="text-xl font-semibold text-primary sm:text-2xl md:text-3xl lg:text-4xl">
 		{title} <span class="text-text">{isWorkInProgress ? '🟡' : ''}</span>
 	</h3>
-	<p class="text-lg font-semibold">{description}</p>
-	<div class="flex flex-wrap gap-3">
+	<p class="text-sm font-semibold sm:text-base md:text-lg">{description}</p>
+	<div class="flex flex-wrap justify-center gap-2 sm:gap-3 md:justify-start">
 		{#each icons as icon}
 			<Icon {icon} />
 		{/each}
 	</div>
-	<a href={isLive ? liveLink : link} target="_blank" class="mt-4 cursor-pointer">
+	<a
+		href={isLive ? liveLink : link}
+		target="_blank"
+		class="mt-2 flex cursor-pointer justify-center sm:mt-4 md:justify-start"
+	>
 		<CTAButton value={isLive ? 'View Website' : 'View Repository'} />
 	</a>
 </div>
