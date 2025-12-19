@@ -24,7 +24,7 @@
 		>
 			<img
 				class="h-full w-full object-contain"
-				src="/images/hero.png"
+				src="/images/face/hero.webp"
 				alt="Hero"
 				loading="lazy"
 				decoding="async"
