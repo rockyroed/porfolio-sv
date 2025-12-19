@@ -22,12 +22,9 @@
 			{'<AboutMe />'}
 		</h2>
 		<h6 class="mb-6 text-sm sm:text-base md:mb-8 md:text-lg lg:text-h6">
-			I build fast, responsive, and user-focused websites that transform complex challenges into
-			seamless, high-performing digital experiences. I build fast, responsive, and user-focused
-			websites that transform complex challenges into seamless, high-performing digital experiences.
-			I build fast, responsive, and user-focused websites that transform complex challenges into
-			seamless, high-performing digital experiences. I build fast, responsive, and user-focused
-			websites that transform complex challenges into seamless, high-performing digital experiences.
+			Motivated web developer seeking to apply foundational skills to build responsive and
+			user-friendly web applications, while gaining hands-on experience and growing within a dynamic
+			team.
 		</h6>
 		<div
 			class="border-border mb-6 grid grid-cols-1 gap-y-4 border-t border-b border-grey-100 px-3 py-5 sm:grid-cols-2 sm:gap-y-5 sm:px-5 sm:py-7 md:mb-10"
