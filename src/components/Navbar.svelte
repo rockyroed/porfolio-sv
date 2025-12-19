@@ -16,11 +16,11 @@
 		<h4 class="font-md font-jetbrains-mono text-h4 font-semibold">rockyroed</h4>
 	</div>
 	<div class="flex w-auto items-center justify-end gap-x-4">
-		<NavbarButton value="About" />
-		<NavbarButton value="Stats" />
-		<NavbarButton value="Services" />
-		<NavbarButton value="Projects" />
-		<NavbarButton value="Certificates" />
-		<NavbarButton value="Contact" />
+		<NavbarButton value="About" sectionId="about" />
+		<NavbarButton value="Stats" sectionId="stats" />
+		<NavbarButton value="Services" sectionId="services" />
+		<NavbarButton value="Projects" sectionId="projects" />
+		<NavbarButton value="Certificates" sectionId="certificates" />
+		<NavbarButton value="Contact" sectionId="contact" />
 	</div>
 </div>

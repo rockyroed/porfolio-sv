@@ -3,7 +3,7 @@
 	import { list } from './list';
 </script>
 
-<div class="flex w-screen flex-col gap-37 px-24 py-20">
+<div id="projects" class="flex w-screen flex-col gap-37 px-24 py-20">
 	{#each list as project, index}
 		<ProjectCard {project} {index} />
 	{/each}

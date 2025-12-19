@@ -1,4 +1,4 @@
-<div class="flex w-full flex-col items-center gap-19 pt-14 pb-28">
+<div id="stats" class="flex w-full flex-col items-center gap-19 pt-14 pb-28">
 	<h2 class="font-jetbrains-mono text-h2 font-medium text-foreground">
 		{'<GithubStats />'}
 	</h2>

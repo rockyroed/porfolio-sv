@@ -58,6 +58,10 @@
 	color: var(--color-text);
 }
 
+body {
+	scroll-behavior: smooth;
+}
+
 /* inter-regular - latin */
 @font-face {
 	font-display: swap;

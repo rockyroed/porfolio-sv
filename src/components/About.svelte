@@ -2,7 +2,7 @@
 	import CTAButton from './Button/CTA.svelte';
 </script>
 
-<div class="flex h-auto gap-x-10 pt-28 pb-14">
+<div id="about" class="flex h-auto gap-x-10 pt-28 pb-14">
 	<div class="w-1/3">
 		<img
 			class="w-full"

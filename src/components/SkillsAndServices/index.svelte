@@ -3,7 +3,7 @@
 	import Icon from '../Stack/Icon.svelte';
 </script>
 
-<div class="grid w-screen grid-cols-3 gap-x-6 gap-y-12 bg-background px-24 py-20">
+<div id="services" class="grid w-screen grid-cols-3 gap-x-6 gap-y-12 bg-background px-24 py-20">
 	<h2
 		class="flex flex-col justify-center text-center font-jetbrains-mono text-h2 font-medium text-foreground"
 	>
