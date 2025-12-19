@@ -63,6 +63,7 @@
 				<h6 class="text-xs sm:text-sm md:text-base lg:text-h6">Manila, Philippines</h6>
 			</div>
 		</div>
-		<CTAButton value="Contact Me" />
+
+		<CTAButton value="Contact Me" href="mailto:christianroedpboyles@protonmail.com" />
 	</div>
 </div>

@@ -16,7 +16,7 @@
 				seamless, high-performing digital experiences.
 			</h6>
 		</div>
-		<CTAButton value="Contact Me" />
+		<CTAButton value="Contact Me" href="mailto:christianroedpboyles@protonmail.com" />
 	</div>
 	<div class="relative hidden w-full justify-center md:w-1/2 lg:flex">
 		<div

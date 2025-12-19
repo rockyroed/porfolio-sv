@@ -15,5 +15,5 @@
 		I'm always open to chatting about new projects, ideas, or opportunities. Whether it's a
 		full-time/part-time role or a freelance gig, let's make it happen.
 	</p>
-	<CTAButton value="Contact Me" />
+	<CTAButton value="Contact Me" href="mailto:christianroedpboyles@protonmail.com" />
 </div>
