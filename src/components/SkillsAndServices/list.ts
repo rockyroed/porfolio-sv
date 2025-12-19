@@ -8,7 +8,7 @@ export const list: List[] = [
 	{
 		title: 'Frontend Development',
 		description: 'Crafting intuitive, accessible, and responsive interfaces.',
-		icons: ['react', 'nuxtjs', 'nextjs', 'nuxtjs', 'typescript', 'tailwindcss']
+		icons: ['react', 'nuxtjs', 'nextjs', 'svelte', 'typescript', 'tailwindcss']
 	},
 	{
 		title: 'Backend & APIs',
@@ -23,7 +23,7 @@ export const list: List[] = [
 	{
 		title: 'Tools & Workflows',
 		description: 'Version control, testing, design, and deployment.',
-		icons: ['git', 'github', 'postman', 'docker', 'vitest', 'figma']
+		icons: ['git', 'github', 'postman', 'docker', 'figma', 'vscode']
 	},
 	{
 		title: 'Development Philosophy',

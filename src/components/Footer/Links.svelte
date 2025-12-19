@@ -1,6 +1,6 @@
 <script lang="ts">
 	const { links }: { links: Link[] } = $props();
-	import Icon from '../Stack/Icon.svelte';
+	import Icon from '../Button/Icon.svelte';
 </script>
 
 <div class="flex items-center justify-end gap-x-4">

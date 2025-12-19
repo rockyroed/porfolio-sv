@@ -1,5 +1,7 @@
 <script lang="ts">
-	import Icon from '../Stack/Icon.svelte';
+	import Icon from '../Button/Icon.svelte';
+	import CTAButton from '../Button/CTA.svelte';
+
 	let {
 		title,
 		description,
@@ -30,8 +32,6 @@
 		{/each}
 	</div>
 	<a href={isLive ? liveLink : link} target="_blank" class="mt-4 cursor-pointer">
-		<button class="cursor-pointer rounded-md bg-primary px-4 py-2 text-text">
-			{isLive ? 'View Website' : 'View Repository'}
-		</button>
+		<CTAButton value={isLive ? 'View Website' : 'View Repository'} />
 	</a>
 </div>

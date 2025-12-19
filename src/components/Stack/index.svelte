@@ -1,6 +1,6 @@
 <script lang="ts">
 	import { list } from './list';
-	import Icon from './Icon.svelte';
+	import Icon from '../Button/Icon.svelte';
 </script>
 
 <div class="flex w-screen items-center justify-between bg-background px-24 py-8">

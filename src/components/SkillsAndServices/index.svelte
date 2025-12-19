@@ -1,6 +1,6 @@
 <script lang="ts">
 	import { list } from './list';
-	import Icon from '../Stack/Icon.svelte';
+	import Icon from '../Button/Icon.svelte';
 </script>
 
 <div id="services" class="grid w-screen grid-cols-3 gap-x-6 gap-y-12 bg-background px-24 py-20">

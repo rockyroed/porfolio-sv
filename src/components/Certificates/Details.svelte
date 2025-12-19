@@ -1,5 +1,5 @@
 <script lang="ts">
-	import Icon from '../Stack/Icon.svelte';
+	import Icon from '../Button/Icon.svelte';
 	let {
 		title,
 		description,
