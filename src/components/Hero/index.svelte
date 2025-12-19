@@ -24,7 +24,7 @@
 		>
 			<img
 				class="h-full w-full object-contain"
-				src="{import.meta.env.BASE_URL}/images/hero.png"
+				src="/images/hero.png"
 				alt="Hero"
 				loading="lazy"
 				decoding="async"

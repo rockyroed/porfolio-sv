@@ -9,7 +9,7 @@
 	<div class="w-full md:w-1/3">
 		<img
 			class="mx-auto w-2/3 rounded-xl sm:w-1/2 md:mx-0 md:w-full"
-			src="{import.meta.env.BASE_URL}/images/about-picture.png"
+			src="/images/about-picture.png"
 			alt="About"
 			loading="lazy"
 			decoding="async"

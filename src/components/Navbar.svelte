@@ -17,7 +17,7 @@
 >
 	<div class="flex h-max w-auto items-center justify-start gap-x-1 text-foreground">
 		<img
-			src="{import.meta.env.BASE_URL}/images/logo-transparent.png"
+			src="/images/logo-transparent.png"
 			alt="logo"
 			class="w-10 sm:w-12"
 			loading="lazy"
