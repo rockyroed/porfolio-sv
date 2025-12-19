@@ -7,6 +7,7 @@
 	import SkillsAndServices from './components/SkillsAndServices/index.svelte';
 	import Projects from './components/Projects/index.svelte';
 	import Certificates from './components/Certificates/index.svelte';
+	import CTA from './components/CTA/index.svelte';
 </script>
 
 <main class="flex flex-col items-center justify-center px-4 sm:px-8 md:px-12 lg:px-16 xl:px-24">
@@ -18,4 +19,5 @@
 	<SkillsAndServices />
 	<Projects />
 	<Certificates />
+	<CTA />
 </main>
