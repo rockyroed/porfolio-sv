@@ -18,7 +18,7 @@
 		<div class="flex w-full justify-center rounded-xl bg-background p-2 sm:p-4">
 			<img
 				class="w-full max-w-md lg:w-full lg:max-w-none"
-				src="https://deor-github-stats.vercel.app/api/top-langs/?username=rockyroed&theme=gruvbox&show_icons=true&hide_border=true&layout=compact&hide=html,nix,shell,glsl,scss,qml"
+				src="https://deor-github-stats.vercel.app/api/top-langs/?username=rockyroed&theme=gruvbox&show_icons=true&hide_border=true&layout=compact&hide=html,nix,shell,glsl,scss,qml,php"
 				alt="rockyroed's Most Used Languages"
 			/>
 		</div>
