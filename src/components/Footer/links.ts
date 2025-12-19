@@ -5,7 +5,7 @@ export interface Link {
 
 export const links: Link[] = [
 	{
-		link: 'https://linkedin.com/in/rockyroed',
+		link: 'https://www.linkedin.com/in/christian-roed-boyles/',
 		icon: 'https://cdn.discordapp.com/attachments/826257554098225172/1451451258819842238/linkedin.png?ex=694638d2&is=6944e752&hm=0b45ca4763f4cfbda2de2c80f0f6768dba6c75221e20849478e3d2ec5d8cc389&'
 	},
 	{
