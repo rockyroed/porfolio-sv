@@ -5,7 +5,7 @@
 <div id="about" class="flex h-auto gap-x-10 pt-28 pb-14">
 	<div class="w-1/3">
 		<img
-			class="w-full"
+			class="w-full rounded-xl"
 			src="/images/about-picture.png"
 			alt="About"
 			loading="lazy"
