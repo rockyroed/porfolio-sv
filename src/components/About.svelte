@@ -9,7 +9,7 @@
 	<div class="w-full md:w-1/3">
 		<img
 			class="mx-auto w-2/3 rounded-xl sm:w-1/2 md:mx-0 md:w-full"
-			src="/images/face/about-picture.webp"
+			src="/images/face/formal-picture.webp"
 			alt="About"
 			loading="lazy"
 			decoding="async"
