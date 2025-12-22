@@ -37,7 +37,7 @@ export const list: List[] = [
 	{
 		title: 'Exchange Rate Notifier',
 		description: 'A python script that emails me about the daily exchange rate of USD to PHP.',
-		icons: ['python', 'gmail'],
+		icons: ['python', 'gmail', 'supabase'],
 		link: 'https://github.com/rockyroed/exchange-rate-notifier',
 		isLive: false,
 		isWorkInProgress: false,
