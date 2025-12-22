@@ -9,6 +9,38 @@
 	import Certificates from './components/Certificates/index.svelte';
 	import CTA from './components/CTA/index.svelte';
 	import Footer from './components/Footer/index.svelte';
+	import FloatingLinks from './components/FloatingLinks/index.svelte';
+	import { onMount } from 'svelte';
+
+	let footerElement: HTMLElement | null = $state(null);
+	let isFooterVisible: boolean = $state(false);
+	let observer: IntersectionObserver | null = null;
+
+	onMount(() => {
+		const timeoutId = setTimeout(() => {
+			if (!footerElement || !(footerElement instanceof HTMLElement)) {
+				return;
+			}
+
+			observer = new IntersectionObserver(
+				(entries) => {
+					isFooterVisible = entries[0].isIntersecting;
+				},
+				{
+					threshold: 0.5
+				}
+			);
+
+			observer.observe(footerElement);
+		}, 0);
+
+		return () => {
+			clearTimeout(timeoutId);
+			if (observer) {
+				observer.disconnect();
+			}
+		};
+	});
 </script>
 
 <main class="flex flex-col items-center justify-center px-4 sm:px-8 md:px-12 lg:px-16 xl:px-24">
@@ -21,5 +53,8 @@
 	<Projects />
 	<Certificates />
 	<CTA />
-	<Footer />
+	<div bind:this={footerElement}>
+		<Footer />
+	</div>
+	<FloatingLinks visible={!isFooterVisible} />
 </main>

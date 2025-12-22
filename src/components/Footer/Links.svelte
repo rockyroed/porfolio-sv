@@ -1,11 +1,11 @@
 <script lang="ts">
 	import type { Link } from './links';
 
-	const { links }: { links: Link[] } = $props();
+	const { links, floating }: { links: Link[]; floating?: boolean } = $props();
 	import Icon from '../Button/Icon.svelte';
 </script>
 
-<div class="flex items-center justify-end gap-x-4">
+<div class="flex {floating ? 'flex-col' : 'flex-row'} items-center justify-end gap-4">
 	{#each links as link}
 		<a href={link.link} target="_blank">
 			<img
